@@ -9,7 +9,7 @@ st.info('This app builds a machine learning model!')
 
 with st.expander('Data 🐧'):
     st.write('**Raw Data**')
-    df = pd.read_csv('Data/penguins_cleaned.csv')
+    df = pd.read_csv('penguins_cleaned.csv')
     df
 
     st.write('**X**')
