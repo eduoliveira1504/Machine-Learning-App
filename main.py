@@ -17,7 +17,7 @@ with st.expander('Data'):
   X_raw
 
   st.write('**y**')
-  y_raw = df.species, axis = 0
+  y_raw = (df.species, axis = 0)
   y_raw
 
 with st.expander('Data visualization'):
