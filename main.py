@@ -13,11 +13,11 @@ with st.expander('Data'):
   df
 
   st.write('**X**')
-  X_raw = df.drop('species', axis = 0)
+  X_raw = df.drop('species', axis = 1)
   X_raw
 
   st.write('**y**')
-  y_raw = (df.species, axis = 0)
+  y_raw = df.species
   y_raw
 
 with st.expander('Data visualization'):
