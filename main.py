@@ -12,7 +12,7 @@ with st.expander('Data 🐧'):
     df = pd.read_csv('Data/penguins_cleaned.csv')
     df
 
-    st.write('**X**')
+  st.write('**X**')
   X_raw = df.drop('species', axis=1)
   X_raw
 
