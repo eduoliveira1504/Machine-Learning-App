@@ -13,7 +13,7 @@ with st.expander('Data'):
   df
 
   st.write('**X**')
-  X_raw = df.ratings.drop('species', axis=1)
+  X_raw = df.drop('species', axis=0)
   X_raw
 
   st.write('**y**')
